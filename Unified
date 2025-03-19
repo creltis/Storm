@@ -1,1 +1,32 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<DefXmlStorage>
+  <Item path="D:\Steam\steamapps\common\RimWorld\Data\Core\Defs\BackstoryDefs\Shuffled\InsectsRelated_Child.xml">
+    <BackstoryDef>
+      <defName>SewerKid57</defName>
+      <title>sewer kid</title>
+      <titleFemale>sewer girl</titleFemale>
+      <titleShort>sewer boy</titleShort>
+      <titleShortFemale>sewer girl</titleShortFemale>
+      <description>[PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world.
+\n[PAWN_pronoun] befriended the strange insects in the darkness and learned to love them.</description>
+      <slot>Childhood</slot>
+      <spawnCategories>
+        <li>InsectsRelated</li>
+      </spawnCategories>
+      <skillGains>
+        <Cooking>2</Cooking>
+      </skillGains>
+    </BackstoryDef>
+  </Item>
+  <Item path="D:\Steam\steamapps\common\RimWorld\Data\Core\Defs\BackstoryDefs\Shuffled\Offworld_Glitterworld_Adult.xml">
+    <BackstoryDef>
+      <defName>NavyScientist52</defName>
+      <title>navy scientist</title>
+      <titleShort>scientist</titleShort>
+      <description>Interstellar warfare is won by technology, so glitterworld navies are always at the peak of modern research. Even better, they occasionally find deific artifacts floating in space.\n\n[PAWN_nameDef] worked in a navy lab.</description>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <Intellectual>8</Intellectual>
+      </skillGains>
+      <spawnCategories>
+        <li>Offworld</li>
