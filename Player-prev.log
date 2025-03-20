@@ -10,16 +10,16 @@ Direct3D:
     VRAM:     10053 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.051 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.653300 ms
+UnloadTime: 0.708200 ms
 Command line arguments: -savedatafolder=C:\Users\crono\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
 RimWorld 1.5.4402 rev778
 Save data folder overridden to C:\Users\crono\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000022112F9C820.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-00000221130FC190.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E32BACC60.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E32E8C180.dll
 [HugsLib] version 11.0.4
 [HugsLib] early-initializing AllowTool
 DubsMintMenus v1.3.1086
@@ -33,7 +33,7 @@ CE: Loading Mod Part
 CE: Loading Mod Part
 Combat Extended :: initialized
 [Interaction Bubbles v3.1] Initialized
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211AE67010.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3A4FC020.dll
 Project RimFactory Core 1.0.0.0 - Harmony patches successful
 Project Rimfactory - added Support for shared Nutrient Dispenser with RimFridge Updated
 Project Rimfactory - added Support for Fridge DSU Power using Simple Utilities: Fridge
@@ -41,47 +41,61 @@ Project Rimfactory - added Support for Research Tree (Continued) when using Lite
 Project Rimfactory - Added Support for QualityBuilder
 QualityBuilder successfully patched Replace Stuff
 [RimHUD v1.15.3] Initialized
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211A9FC020.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211B757030.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211B762040.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000022114D8D0B0.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211BAF6010.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3AAA5030.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3A633D40.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3A8D9010.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3AABDA70.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000026E3A8EE0B0.dll
 GAGARIN: <color=green>StartUpStarted called!</color>
-GAGARIN: <color=green>Cache found</color> 
+GAGARIN: <color=green>Cache not found or got purged!</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
+GAGARIN: Cache expired! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
-b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
-b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
-GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>19.621</color> seconds 
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>14.235</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=True</color> 
+GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=False</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=green>Loadeding XmlDocument</color> took <color=red>0.5906859 seconds</color> 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-GAGARIN: <color=green>Loaded from cache!</color> Loading cache took <color=red>1 seconds</color> 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>1.346</color> seconds 
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>0.879</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.001</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.007</color> seconds 
+[Combat Extended - Start of stack trace]
+Verse.PatchOperationReplace(xpath="Defs/HediffDef[defName="SimpleProstheticArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools"): Failed to find a node with the given xpath
+[End of stack trace]
+The top operation is the one that failed, the ones below it are the parents
+Source file: d:\steam\steamapps\workshop\content\294100\2890901044\Patches\Core\HediffDefs\Hediffs_Local_AddedParts.xml
+ 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0</color> seconds 
+GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>25.363</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>13.809</color> seconds 
+XML error: Could not find parent node named "SurgeryOld" for node "RecipeDef". Full node: <RecipeDef ParentName="SurgeryOld"><defName>CureInjuryBlast</defName><label>cure blast</label><description>Cure blast.</description><workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass><jobString>Curing blast.</jobString><workAmount>2000</workAmount><surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor><ingredients><li><filter><thingDefs><li>MedicineUltratech</li></thingDefs></filter><count>3</count></li></ingredients><fixedIngredientFilter><thingDefs><li>MedicineUltratech</li></thingDefs></fixedIngredientFilter><skillRequirements><Medicine>10</Medicine></skillRequirements><removesHediff>Blast</removesHediff><researchPrerequisite>RegenerativeMedicine</researchPrerequisite></RecipeDef> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds 
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.362</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
+GAGARIN: <color=white>Cache created!</color> creating cache took <color=green>0 seconds</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>15.096</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Combat Extended] Patch operation Verse.PatchOperationReplace(Defs/HediffDef[defName="SimpleProstheticArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools) failed
+file: d:\steam\steamapps\workshop\content\294100\2890901044\Patches\Core\HediffDefs\Hediffs_Local_AddedParts.xml 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0.001</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Could not resolve cross-reference: No Verse.SoundDef named MeleeHit_Wood_Sharp found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead) 
@@ -97,6 +111,129 @@ There are 2 global settings.
 There are 3 returned xenotypes.
 There are 3 returned colonist xenotypes.
 [SoS2_Shuttle] Implied generation for vehicles is incomplete. Please define the VehicleBuildDef separately to avoid improper vehicle generation. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ReusableNeolithicProjectiles. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Reload. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ReloadNoMag. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ReloadAuto. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ReloadManned. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_FireModes. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_AimModes. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Spotting. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_MortarDirectFire. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_AimingSystem. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Stabilizing. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Shields. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ArmorSystem. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_AutoLoader. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_SuppressionReaction. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Hunkering. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_WornBulk. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Crouching. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_NightVision. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_MuzzleFlash. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_TargettedModes. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Bipods. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_TargettedModesMelee. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_GiveAmmo. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_InventoryWeightBulk. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_Loadouts. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_AmmoCrafting. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ObtainingFSX. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_ObtainingPrometheum. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_CentipedeArmor. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key CE_AmmoSettings. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key BuildersTryMine. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsBasic. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SidearmsDropping. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SidearmsMissing. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsPreference. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsAdvancedRanged. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsAdvancedMelee. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsAdvancedDrafted. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_SimpleSidearmsLosingWeapons. Adding it... 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Knowledge data was missing key Concept_CEOverride. Adding it... 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 d3d11: failed to create 2D texture id=6730 width=25 height=31 mips=6 dxgifmt=28 [D3D error was 80070057]
@@ -147,7 +284,7 @@ d3d11: failed to create 2D texture shader resource view id=43022 [D3D error was 
  
 (Filename:  Line: 537)
 
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.003</color> seconds 
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.363</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 startIndex: 18
@@ -156,14 +293,14 @@ Start: newobj System.Void System.Text.StringBuilder::.ctor()
 End:callvirt virtual System.String System.Object::ToString()
 Start: stloc.1 NULL
 End:br.s Label4
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.004</color> seconds 
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.363</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Translation data for language English has 6 errors. Generate translation report for more info. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[XML Extensions] Initialized 2 SettingsMenuDef(s) and found 2 unused key(s) from 1 mod(s)
-[XML Extensions] 0 total patches run in 4ms, 0 failed
+[XML Extensions] Initialized 2 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
+[XML Extensions] 6599 total patches run in 25148ms, 1 failed
 Alien race successfully completed 254 patches with harmony.
 [KCSG] Alpha Genes contains 1 missing symbols. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -194,7 +331,7 @@ SOS2: Registering compatible roof RoofSolar
 [SoS2] Vanilla Expanded framework detected - disabling vehicle wrecks in space
 Combat Extended :: Ammo injected
 CE successfully patched 2 humanoid alien races
-[TrueTerrainColors v1.12.17] Loaded cached true colors for 912 terrain defs from file.
+[TrueTerrainColors v1.12.17] Extracted true colors from 912 terrain defs in 55.68 seconds using a RenderTexture of size 2048x2048.
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
 Initializing RPG_Style_Level_Up_Mod_patches...
 ApparelBodyTypeResolver Patched
@@ -232,7 +369,7 @@ CharacterEditor v1.5.10 ...done
 [AllowTool] Applied compatibility patch for "Pick Up And Haul"
 Combat Extended :: Ammo injected
 Combat Extended :: Bounds pre-generated
-Starting patches: 3131 - 3/19/2025 7:30:57 PM
+Starting patches: 3131 - 3/19/2025 5:46:57 PM
 Combat Extended :: Checking Vehicle Framework
 Combat Extended :: Installing Vehicle Framework
 Vanilla Psycasts Expanded loaded: True
@@ -244,6 +381,7 @@ Combat Extended :: Checking Better Turrets
 Checking Multiplayer Compat
 [HugsLib] initializing ImprovedWorkbenches, DefensivePositions, LightMap, MapReroll
 [ImprovedWorkbenches] Adding support for ProjectRimFactory
+[DefensivePositions] Cleared 'toggle beauty display' key binding
 [ResearchTree]: 	redundant prerequisites for Autocannon turret: Microelectronics, 
 Gas operation, 
 Gun turrets. Removing. 
@@ -272,7 +410,6 @@ Fundamentals. Removing.
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [OgreStack]: Modify Stack Sizes Complete
-Finished transpiling 3131 methods - 3/19/2025 7:31:24 PM
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 1140 default entities for genes created
@@ -286,14 +423,14 @@ no modifications for genes
 no modifications for objects
 no modifications for lifestages
 ...done
+Finished transpiling 3131 methods - 3/19/2025 5:47:59 PM
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
-UnloadTime: 12.811300 ms
-QualityBuilder added property to '305' things
+UnloadTime: 35.731100 ms
 
-Unloading 2471 unused Assets to reduce memory usage. Loaded Objects now: 63998.
-Total: 841.666300 ms (FindLiveObjects: 5.700800 ms CreateObjectMapping: 2.155300 ms MarkObjects: 831.667800 ms  DeleteObjects: 2.142000 ms)
+Unloading 2466 unused Assets to reduce memory usage. Loaded Objects now: 63996.
+Total: 802.756700 ms (FindLiveObjects: 18.073000 ms CreateObjectMapping: 2.456200 ms MarkObjects: 779.501800 ms  DeleteObjects: 2.724700 ms)
 
-Loading game from file Vefarinor with mods:
+Loading game from file New Arrivals1 with mods:
   - brrainz.harmony
   - Ludeon.RimWorld
   - Ludeon.RimWorld.Royalty
@@ -458,29 +595,161 @@ Loading game from file Vefarinor with mods:
   - s16.sbto
   - Wemd.ExpandedFloors
   - Krkr.RocketMan
-Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race550__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race550__Smash
+QualityBuilder added property to '305' things
+Could not load reference to Verse.ThingDef named WaterTrough 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named PetWaterBowl 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named DBH_WaterBottle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named FSFMeditationFocus 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_Install_Plant_TreeAnima 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_WaterTrough 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Frame_WaterTrough 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_Install_WaterTrough 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_PetWaterBowl 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Frame_PetWaterBowl 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_Install_PetWaterBowl 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Blueprint_FSFMeditationFocus 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named Frame_FSFMeditationFocus 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named WaterTrough_ReplaceStuff 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named PetWaterBowl_ReplaceStuff 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named DBH_WaterBottle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D6E8D617]
+ at Verse.Thing.ExposeData () [0x00016] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.ThingWithComps.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - TRANSPILER com.arquebus.rimworld.mod.morepersonatraits: IEnumerable`1 MorePersonaTraits.Patches.BladeWhisperer_ExposeData_Patch:Transpiler(IEnumerable`1 instructions)
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Thing_ExposeData_Patch:Postfix(ThingWithComps __instance)
+     - POSTFIX net.avilmask.rimworld.mod.CommonSense: Void CommonSense.ThingWithComps_ExposeData_CommonSensePatch:Postfix(ThingWithComps __instance)
+ at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x001bf] in <55c979a686a941c79e05527da9299180>:0 
+Subnode:
+<li Class="ThingWithComps"><def>DBH_WaterBottle</def><id>DBH_WaterBottle50597</id><health>60</health><stackCount>2</stackCount><questTags IsNull="True" /><level>Untreated</level><CommonSenseWasInInventory>True</CommonSenseWasInInventory></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named DBH_WaterBottle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D6E8D617] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="ThingWithComps"><def>DBH_WaterBottle</def><id>DBH_WaterBottle50302</id><health>60</health><stackCount>2</stackCount><questTags IsNull="True" /><level>Untreated</level><CommonSenseWasInInventory>True</CommonSenseWasInInventory></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named DBH_WaterBottle 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D6E8D617] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="ThingWithComps"><def>DBH_WaterBottle</def><id>DBH_WaterBottle50590</id><health>60</health><stackCount>2</stackCount><questTags IsNull="True" /><level>Untreated</level><CommonSenseWasInInventory>True</CommonSenseWasInInventory></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not load reference to Verse.ThingDef named PetWaterBowl 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E6A6FF28]
+ at Verse.Thing.ExposeData () [0x00016] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.ThingWithComps.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - TRANSPILER com.arquebus.rimworld.mod.morepersonatraits: IEnumerable`1 MorePersonaTraits.Patches.BladeWhisperer_ExposeData_Patch:Transpiler(IEnumerable`1 instructions)
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Thing_ExposeData_Patch:Postfix(ThingWithComps __instance)
+     - POSTFIX net.avilmask.rimworld.mod.CommonSense: Void CommonSense.ThingWithComps_ExposeData_CommonSensePatch:Postfix(ThingWithComps __instance)
+ at Verse.Building.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - POSTFIX rimworld.aelanna.getoutofmychair: Void GetOutOfMyChair.HarmonyPatches:BuildingExposeData_Postfix(Building __instance)
+ at DubsBadHygiene.Building_AssignableFixture.ExposeData () [0x00000] in <aea9503f41394c96a4a9ca6ef6a976b3>:0 
+ at DubsBadHygiene.Building_washbucket.ExposeData () [0x00000] in <aea9503f41394c96a4a9ca6ef6a976b3>:0 
+ at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x001bf] in <55c979a686a941c79e05527da9299180>:0 
+Subnode:
+<thing Class="DubsBadHygiene.Building_WaterTrough"><def>PetWaterBowl</def><id>PetWaterBowl49774</id><map>0</map><pos>(203, 0, 186)</pos><health>36</health><stuff>WoodLog</stuff><faction>Faction_29</faction><questTags IsNull="True" /><spawnedTick>11616</spawnedTick><BedRef>null</BedRef><bedRefs /></thing> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering Verse.ThingWithComps Verse.ThingWithComps in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D057EADA]
+ at Verse.Thing.get_ThingID () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.Thing.GetUniqueLoadID () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000b3] in <55c979a686a941c79e05527da9299180>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering Verse.ThingWithComps Verse.ThingWithComps in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D057EADA] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering Verse.ThingWithComps Verse.ThingWithComps in loaded object directory with unique thing ID -1: System.ArgumentException: An item with the same key has already been added. Key: -1
+[Ref 71B4658A]
+ at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x00145] in <55c979a686a941c79e05527da9299180>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering Verse.ThingWithComps Verse.ThingWithComps in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D057EADA] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering Verse.ThingWithComps Verse.ThingWithComps in loaded object directory with unique thing ID -1: System.ArgumentException: An item with the same key has already been added. Key: -1
+[Ref 71B4658A] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering DubsBadHygiene.Building_WaterTrough DubsBadHygiene.Building_WaterTrough in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D057EADA] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering DubsBadHygiene.Building_WaterTrough DubsBadHygiene.Building_WaterTrough in loaded object directory with unique thing ID -1: System.ArgumentException: An item with the same key has already been added. Key: -1
+[Ref 71B4658A] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race50368__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race50368__Smash
 [Ref D29BBC3A]
  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <eae584ce26bc40229c1b1aa476bfa589>:0 
  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000bf] in <55c979a686a941c79e05527da9299180>:0  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race550__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race550__Smash_Managed
+Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race50368__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race50368__Smash_Managed
 [Ref D29BBC3A] Duplicate stacktrace, see ref for original 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race550__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race550__Smash
+Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race50368__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race50368__Smash
 [Ref D29BBC3A] Duplicate stacktrace, see ref for original 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race550__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race550__Smash_Managed
+Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race50368__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race50368__Smash_Managed
 [Ref D29BBC3A] Duplicate stacktrace, see ref for original 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Trait(BS_Giant-0) curPathRelToParent= 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Could not resolve reference to object with loadID Gene_3741 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Trait(Delicate-0) curPathRelToParent= 
+Could not resolve reference to object with loadID Gene_3550 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Trait(Delicate-0) curPathRelToParent= 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
@@ -489,7 +758,158 @@ Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was
 Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9D1F27E5]
+ at Verse.Thing.ExposeData () [0x00016] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.ThingWithComps.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - TRANSPILER com.arquebus.rimworld.mod.morepersonatraits: IEnumerable`1 MorePersonaTraits.Patches.BladeWhisperer_ExposeData_Patch:Transpiler(IEnumerable`1 instructions)
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Thing_ExposeData_Patch:Postfix(ThingWithComps __instance)
+     - POSTFIX net.avilmask.rimworld.mod.CommonSense: Void CommonSense.ThingWithComps_ExposeData_CommonSensePatch:Postfix(ThingWithComps __instance)
+ at Verse.CrossRefHandler.ResolveAllCrossReferences () [0x000d0] in <55c979a686a941c79e05527da9299180>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9D1F27E5] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9D1F27E5] Duplicate stacktrace, see ref for original 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8CE2D9CA]
+ at Verse.Thing.ExposeData () [0x00016] in <55c979a686a941c79e05527da9299180>:0 
+ at Verse.ThingWithComps.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - TRANSPILER com.arquebus.rimworld.mod.morepersonatraits: IEnumerable`1 MorePersonaTraits.Patches.BladeWhisperer_ExposeData_Patch:Transpiler(IEnumerable`1 instructions)
+     - POSTFIX OskarPotocki.VFECore: Void VFECore.Thing_ExposeData_Patch:Postfix(ThingWithComps __instance)
+     - POSTFIX net.avilmask.rimworld.mod.CommonSense: Void CommonSense.ThingWithComps_ExposeData_CommonSensePatch:Postfix(ThingWithComps __instance)
+ at Verse.Building.ExposeData () [0x00000] in <55c979a686a941c79e05527da9299180>:0 
+     - POSTFIX rimworld.aelanna.getoutofmychair: Void GetOutOfMyChair.HarmonyPatches:BuildingExposeData_Postfix(Building __instance)
+ at DubsBadHygiene.Building_AssignableFixture.ExposeData () [0x00000] in <aea9503f41394c96a4a9ca6ef6a976b3>:0 
+ at DubsBadHygiene.Building_washbucket.ExposeData () [0x00000] in <aea9503f41394c96a4a9ca6ef6a976b3>:0 
+ at Verse.CrossRefHandler.ResolveAllCrossReferences () [0x000d0] in <55c979a686a941c79e05527da9299180>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ThingOwner removed 1 invalid entries during PostLoadInit. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ThingOwner removed 1 invalid entries during PostLoadInit. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find think node with key -1612224158 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ThingOwner removed 1 invalid entries during PostLoadInit. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception spawning loaded thing null: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 93395777]
+ at Verse.Map.FinalizeLoading () [0x000b9] in <55c979a686a941c79e05527da9299180>:0  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 <color=#00FFFFFF>SOS2: </color>Map-0-PlayerHome<color=#00FF00FF> Recached,</color> Found ships: 0
@@ -501,8 +921,8 @@ QualityBuilder added to orders category.
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 5)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 70608.
-Total: 1016.504100 ms (FindLiveObjects: 3.534200 ms CreateObjectMapping: 2.216000 ms MarkObjects: 1010.626300 ms  DeleteObjects: 0.127100 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 70581.
+Total: 961.883300 ms (FindLiveObjects: 2.914400 ms CreateObjectMapping: 3.476900 ms MarkObjects: 955.379900 ms  DeleteObjects: 0.111600 ms)
 
 [Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
 Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
@@ -1092,15 +1512,36 @@ Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
 Trying to remove giant but Nixriel doesn't have it. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-miliraThreatPoint40
+Weapons Sorter: Updating 168 weapon categories.
+Sorting by tech, then by None
+Weapons Sorter: Update done.
+miliraThreatPoint20
+reinnited 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+reinnited 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Analyzer] Failed to patch entry, failed with the message Exception has been thrown by the target of an invocation., exception: Exception has been thrown by the target of an invocation., occured at 
+System.Reflection.MonoMethod:Invoke(object, BindingFlags, Binder, object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(object, object[])
+Analyzer.Profiling.Analyzer+<>c__DisplayClass38_0:<PatchEntry>b__0()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Analyzer] Unpatched all profiling methods
+[Analyzer] Cleared Patch Caches
+[Analyzer] Cleared Profiles
+[Analyzer] Cleared Logs
+[Analyzer] Cleared Entries
 Setting up 10 worker threads for Enlighten.
-  Thread -> id: 2008 -> priority: 1 
-  Thread -> id: 804c -> priority: 1 
-  Thread -> id: 5ec -> priority: 1 
-  Thread -> id: 3b20 -> priority: 1 
-  Thread -> id: 9964 -> priority: 1 
-  Thread -> id: 7f4 -> priority: 1 
-  Thread -> id: 28d4 -> priority: 1 
-  Thread -> id: 9a1c -> priority: 1 
-  Thread -> id: 48d8 -> priority: 1 
-  Thread -> id: 178c -> priority: 1 
+  Thread -> id: 6690 -> priority: 1 
+  Thread -> id: 5ffc -> priority: 1 
+  Thread -> id: 48d0 -> priority: 1 
+  Thread -> id: 9380 -> priority: 1 
+  Thread -> id: 174c -> priority: 1 
+  Thread -> id: 974c -> priority: 1 
+  Thread -> id: 5d34 -> priority: 1 
+  Thread -> id: a0a4 -> priority: 1 
+  Thread -> id: 95dc -> priority: 1 
+  Thread -> id: ab50 -> priority: 1 
