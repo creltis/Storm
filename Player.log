@@ -10,16 +10,16 @@ Direct3D:
     VRAM:     10053 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.090 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.653300 ms
+UnloadTime: 0.685100 ms
 Command line arguments: -savedatafolder=C:\Users\crono\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
 RimWorld 1.5.4402 rev778
 Save data folder overridden to C:\Users\crono\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000022112F9C820.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-00000221130FC190.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019905258020.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-00000199052EA060.dll
 [HugsLib] version 11.0.4
 [HugsLib] early-initializing AllowTool
 DubsMintMenus v1.3.1086
@@ -33,7 +33,7 @@ CE: Loading Mod Part
 CE: Loading Mod Part
 Combat Extended :: initialized
 [Interaction Bubbles v3.1] Initialized
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211AE67010.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B036B0090.dll
 Project RimFactory Core 1.0.0.0 - Harmony patches successful
 Project Rimfactory - added Support for shared Nutrient Dispenser with RimFridge Updated
 Project Rimfactory - added Support for Fridge DSU Power using Simple Utilities: Fridge
@@ -41,11 +41,11 @@ Project Rimfactory - added Support for Research Tree (Continued) when using Lite
 Project Rimfactory - Added Support for QualityBuilder
 QualityBuilder successfully patched Replace Stuff
 [RimHUD v1.15.3] Initialized
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211A9FC020.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211B757030.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211B762040.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000022114D8D0B0.dll
-Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002211BAF6010.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B058F8020.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B05910A60.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B0591BA70.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B05928A80.dll
+Fallback handler could not load library D:/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000019B05930290.dll
 GAGARIN: <color=green>StartUpStarted called!</color>
 GAGARIN: <color=green>Cache found</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -54,22 +54,22 @@ b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
 b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
 b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
 b.4402:3/17/2025 12:00:00 AM:1.5.4402 rev778
-GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>19.621</color> seconds 
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>13.622</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=True</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=green>Loadeding XmlDocument</color> took <color=red>0.5906859 seconds</color> 
+GAGARIN: <color=green>Loadeding XmlDocument</color> took <color=red>0.5441173 seconds</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 GAGARIN: <color=green>Loaded from cache!</color> Loading cache took <color=red>1 seconds</color> 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>1.346</color> seconds 
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>1.245</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.001</color> seconds 
+GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.002</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.007</color> seconds 
@@ -78,7 +78,7 @@ GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.007</color
 GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>13.809</color> seconds 
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>13.871</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds 
@@ -147,7 +147,7 @@ d3d11: failed to create 2D texture shader resource view id=43022 [D3D error was 
  
 (Filename:  Line: 537)
 
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.003</color> seconds 
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.004</color> seconds 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 startIndex: 18
@@ -163,7 +163,7 @@ Translation data for language English has 6 errors. Generate translation report 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [XML Extensions] Initialized 2 SettingsMenuDef(s) and found 2 unused key(s) from 1 mod(s)
-[XML Extensions] 0 total patches run in 4ms, 0 failed
+[XML Extensions] 0 total patches run in 3ms, 0 failed
 Alien race successfully completed 254 patches with harmony.
 [KCSG] Alpha Genes contains 1 missing symbols. 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -192,7 +192,7 @@ SOS2 SteamV2.7.4 active
 SOS2: Registering compatible roof RoofTransparent
 SOS2: Registering compatible roof RoofSolar
 [SoS2] Vanilla Expanded framework detected - disabling vehicle wrecks in space
-Combat Extended :: Ammo injected
+Combat Extended :: Ammo removed
 CE successfully patched 2 humanoid alien races
 [TrueTerrainColors v1.12.17] Loaded cached true colors for 912 terrain defs from file.
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
@@ -230,9 +230,9 @@ checking editor settings...
 bodysizes genes are active
 CharacterEditor v1.5.10 ...done
 [AllowTool] Applied compatibility patch for "Pick Up And Haul"
-Combat Extended :: Ammo injected
+Combat Extended :: Ammo removed
 Combat Extended :: Bounds pre-generated
-Starting patches: 3131 - 3/19/2025 7:30:57 PM
+Starting patches: 3131 - 3/19/2025 9:59:20 PM
 Combat Extended :: Checking Vehicle Framework
 Combat Extended :: Installing Vehicle Framework
 Vanilla Psycasts Expanded loaded: True
@@ -272,7 +272,6 @@ Fundamentals. Removing.
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [OgreStack]: Modify Stack Sizes Complete
-Finished transpiling 3131 methods - 3/19/2025 7:31:24 PM
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 1140 default entities for genes created
@@ -286,821 +285,33 @@ no modifications for genes
 no modifications for objects
 no modifications for lifestages
 ...done
-Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
-UnloadTime: 12.811300 ms
-QualityBuilder added property to '305' things
-
-Unloading 2471 unused Assets to reduce memory usage. Loaded Objects now: 63998.
-Total: 841.666300 ms (FindLiveObjects: 5.700800 ms CreateObjectMapping: 2.155300 ms MarkObjects: 831.667800 ms  DeleteObjects: 2.142000 ms)
-
-Loading game from file Vefarinor with mods:
-  - brrainz.harmony
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - RedMattis.BetterPrerequisites
-  - UnlimitedHugs.HugsLib
-  - Mlie.10xCarryingCapacity
-  - JintuziLamian.Hairstyle.AFUWomenshairstyles
-  - JintuziLamian.Hairstyle.AFUMenshairstyles
-  - imranfish.xmlextensions
-  - Gewen.AdditionalTraits
-  - UnlimitedHugs.AllowTool
-  - KingsMan.AnomalyPatch
-  - Teok25.ArchotechExpanded
-  - RedMattis.BetterChildren
-  - RedMattis.BetterGeneInheritance
-  - falconne.BWM
-  - Daria40K.BigLittleModPatch
-  - Nals.FacialAnimation
-  - Nals.FacialAnimationExperimentals
-  - erdelf.HumanoidAlienRaces
-  - RedMattis.BigSmall.Core
-  - RedMattis.Heaven
-  - RedMattis.BigSmall
-  - RedMattis.BigWeapons
-  - RedMattis.Yokai
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - VanillaExpanded.VFECore
-  - VanillaExpanded.VFEMedical
-  - RedMattis.BSFurniture
-  - DerekBickley.LTOColonyGroupsFinal
-  - CrashM.ColorCodedMoodBar.11
-  - VanillaExpanded.VPlantsE
-  - VanillaExpanded.VTEXE
-  - IH.Clean.Textures
-  - Mlie.ClothingSorter
-  - BDew.CremateAutoStrip
-  - davai.sortedcategories
-  - UnlimitedHugs.DefensivePositions
-  - proxyer.dismantleancientjunk
-  - jecrell.doorsexpanded
-  - telardo.DragSelect
-  - eagle0600.dressPatients.1.4
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - Dubwise.DubsPerformanceAnalyzer.steam
-  - Dubwise.Rimatomics
-  - Aelanna.EccentricExtras.AngelHairs
-  - Murmur.EnemySelfPreservation
-  - Mlie.ExpandedRoofing
-  - Barb.Facetexture
-  - Hawkwood.FloorsAreWorthless
-  - zylle.Gemstones
-  - Aelanna.GetOutOfMyChair
-  - automatic.gradienthair
-  - Telefonmast.GraphicsSettings
-  - SmashPhil.VehicleFramework
-  - kentington.saveourship2
-  - VanillaExpanded.VAEAccessories
-  - OskarPotocki.VFE.Mechanoid
-  - VanillaExpanded.VWENL
-  - CETeam.CombatExtended
-  - velc.HatsDisplaySelection
-  - Nals.CompatibleBody2
-  - Nals.RealisticBody
-  - nalsnoir.ApparelPaperPattern
-  - WRK.APPBodyTypeOverrider
-  - WRK.THIGAPPE
-  - LanYv.HoomanCuteReborn
-  - biowreck.hyperweaveplantation
-  - Murmur.IncidentDisabler
-  - Jaxe.Bubbles
-  - Syrus.LightMap
-  - rswallen.linkedplanters
-  - m00nl1ght.MapPreview
-  - TheRealLemon.MapReroll
-  - Samael.NPCMechsAndAnimals
-  - Ancot.AncotLibrary
-  - Ancot.MiliraRace
-  - Ancot.MiliraRaceFacialAnimation
-  - Haplo.Miscellaneous.Robots
-  - Alaestor.MiscRobots.PlusPlus
-  - Haplo.Miscellaneous.Training
-  - Arquebus.MorePersonaTraits
-  - Unon.NoBurnMetal
-  - Doug.NoJobAuthors
-  - Ogre.OgreStack
-  - Taranchuk.PerformanceOptimizer
-  - densevoid.hui.personalworkcat
-  - Mlie.PerspectiveEaves
-  - Mehni.PickUpAndHaul
-  - Scherub.PlanningExtended
-  - spdskatr.projectrimfactory
-  - spdskatr.projectrimfactory.drones
-  - Mlie.ProstheticNoMissingBodyParts
-  - tr.qualcolor
-  - hatti.qualitybuilder
-  - Rah.RBSE
-  - Sandy.RPGStyleInventory.avilmask.Revamped
-  - FLASHPOINT55.RPGStyleLevelUpMod
-  - ratys.rtsolarflareshield
-  - Lucifer.RealisticRooms
-  - adaptive.storage.framework
-  - VanillaExpanded.VFEPropsandDecor
-  - reel.expanded.storage
-  - sirrandoo.rda
-  - Uuugggg.ReplaceStuff
-  - Mlie.ResearchTree
-  - rimfridge.kv.rw
-  - Dubwise.Rimefeller
-  - gguake.apparelbodyresolver
-  - void.charactereditor
-  - prkr.GeneTools
-  - LanYv.SelectiveRetextureBasedonGene
-  - avilmask.SelfDyeing
-  - FlashPoint55.Selfreloadingtraps
-  - PeteTimesSix.SimpleSidearms
-  - dhultgren.smarterconstruction
-  - Mlie.SmarterDeconstructionAndMining
-  - weilbyte.snapout
-  - Uuugggg.TDSBugFixes
-  - Uuugggg.TDFindLib
-  - Meow.TradableStoneBlocks
-  - captaingeorge.TradersHaveMoney
-  - velc.TrapDisable
-  - nephlite.orbitaltradecolumn
-  - JXW.UtilityColumnsForRoyalty
-  - VanillaExpanded.VFEArt
-  - VanillaExpanded.VFEFarming
-  - VanillaExpanded.VFEProduction
-  - VanillaExpanded.VFESpacer
-  - hourai.vanillahairsretex
-  - VanillaExpanded.VIEHAR
-  - vanillaexpanded.outposts
-  - VanillaExpanded.VPersonaWeaponsE
-  - VanillaExpanded.VPlantsEMushrooms
-  - VanillaExpanded.Temperature
-  - VanillaExpanded.VanillaTraitsExpanded
-  - Mlie.WeaponsSorter
-  - sarg.alphagenes
-  - Dubwise.DubsBadHygiene
-  - avilmask.CommonSense
-  - Dubwise.DubsRimkit
-  - Owlchemist.CeilingUtilities
-  - VanillaExpanded.VAPPE
-  - VanillaExpanded.VARME
-  - VanillaExpanded.VFEArchitect
-  - VanillaExpanded.VFEPower
-  - VanillaExpanded.VFESecurity
-  - VanillaExpanded.VNutrientE
-  - VanillaExpanded.VPlantsEMore
-  - Owlchemist.FridgeUtilities
-  - VanillaExpanded.VPsycastsE
-  - Jaxe.RimHUD
-  - vanillaexpanded.skills
-  - OskarPotocki.VanillaVehiclesExpanded
-  - FrozenSnowFox.FrozenSnowFoxTweaks
-  - FrozenSnowFox.SimpleEducation
-  - Grizzlemethis.TradingSpot.RW
-  - s16.sbto
-  - Wemd.ExpandedFloors
-  - Krkr.RocketMan
-Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race550__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race550__Smash
-[Ref D29BBC3A]
- at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <eae584ce26bc40229c1b1aa476bfa589>:0 
- at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
- at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000bf] in <55c979a686a941c79e05527da9299180>:0  
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race550__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race550__Smash_Managed
-[Ref D29BBC3A] Duplicate stacktrace, see ref for original 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Exception registering CombatExtended.Verb_MeleeAttackCE CombatExtended.Verb_MeleeAttackCE(null) in loaded object directory with unique load ID Verb_Thing_Milira_Race550__Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_Thing_Milira_Race550__Smash
-[Ref D29BBC3A] Duplicate stacktrace, see ref for original 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID Thing_Milira_Race550__Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: Thing_Milira_Race550__Smash_Managed
-[Ref D29BBC3A] Duplicate stacktrace, see ref for original 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Trait(BS_Giant-0) curPathRelToParent= 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve reference to object with loadID Gene_3741 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Trait(Delicate-0) curPathRelToParent= 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve reference to object with loadID Gene_0 of type Verse.Gene. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=BetterPrerequisites.PGene curPathRelToParent= 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-<color=#00FFFFFF>SOS2: </color>Map-0-PlayerHome<color=#00FF00FF> Recached,</color> Found ships: 0
-checking editor settings...
-bodysizes genes are active
-QualityBuilder added to orders category.
-[ResearchTree]: Node for Power Factor Setting for RimFridge not found. Was it intentionally hidden or locked? 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 5)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 70608.
-Total: 1016.504100 ms (FindLiveObjects: 3.534200 ms CreateObjectMapping: 2.216000 ms MarkObjects: 1010.626300 ms  DeleteObjects: 0.127100 ms)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[Analyzer] Failed to capture Harmony ctor, exception: Object reference not set to an instance of an object, occured at 
-Analyzer.Profiling.RememberHarmonyIDs:Prefix(string)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Trying to remove giant but Nixriel doesn't have it. 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-miliraThreatPoint40
-Setting up 10 worker threads for Enlighten.
-  Thread -> id: 2008 -> priority: 1 
-  Thread -> id: 804c -> priority: 1 
-  Thread -> id: 5ec -> priority: 1 
-  Thread -> id: 3b20 -> priority: 1 
-  Thread -> id: 9964 -> priority: 1 
-  Thread -> id: 7f4 -> priority: 1 
-  Thread -> id: 28d4 -> priority: 1 
-  Thread -> id: 9a1c -> priority: 1 
-  Thread -> id: 48d8 -> priority: 1 
-  Thread -> id: 178c -> priority: 1 
+Finished transpiling 3131 methods - 3/19/2025 10:00:20 PM
+[HugsLib][ERR] HTTP/1.1 401 Unauthorized
+  at System.Environment.get_StackTrace () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at HugsLib.Logs.LogPublisher.OnRequestError (System.String errorMessage) [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.Logs.LogPublisher.<BeginUpload>b__32_0 (System.Exception ex) [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.Utils.DoLaterScheduler.InvokeCallbacks (System.Collections.Generic.Queue`1[T] queue) [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.Utils.DoLaterScheduler.OnUpdate () [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.HugsLibController.OnUpdate () [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at HugsLib.Patches.Root_Patch.UpdateHook () [0x00000] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0 
+  at MonoMod.Utils.DynamicMethodDefinition.Verse.Root.Update_Patch1 (Verse.Root ) [0x00000] in <abec11463bc04855a5322a0a868aeb22>:0 
+  at Verse.Root_Entry.Update () [0x00000] in <55c979a686a941c79e05527da9299180>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[HugsLib][warn] Exception during log publishing (gist creation): System.Exception: HTTP/1.1 401 Unauthorized
+[Ref 53715D51]
+ at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x000a6] in <9270b4f3a0574e6ab5e5325b2e8ba741>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Setting up 10 worker threads for Enlighten.
+  Thread -> id: 112c -> priority: 1 
+  Thread -> id: 2160 -> priority: 1 
+  Thread -> id: 26b0 -> priority: 1 
+  Thread -> id: aa2c -> priority: 1 
+  Thread -> id: a448 -> priority: 1 
+  Thread -> id: 4a6c -> priority: 1 
+  Thread -> id: a594 -> priority: 1 
+  Thread -> id: 6734 -> priority: 1 
+  Thread -> id: 2f28 -> priority: 1 
+  Thread -> id: 7680 -> priority: 1 
