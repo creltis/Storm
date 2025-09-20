@@ -1,4 +1,4 @@
--- Harry Potter and the Dragon's Bond --
+ Harry Potter and the Dragon's Bond 
 
 Character: Hermione Granger
 
@@ -18,7 +18,7 @@ While the other champions—older and armed with years of advanced magical train
 
 As the First Task approaches, he must decide whether to attempt this risky, unorthodox solution—one that could either save his life or result in catastrophic consequences.
 
--- Turn 1 --
+ Turn 1 
 
 Outcome:
 
@@ -56,13 +56,13 @@ Madam Pince appeared at the end of our aisle, her suspicious gaze sweeping over 
 
 I touched his hand briefly, feeling a strange flutter in my stomach as I did so. "I'm not letting you face that dragon unprepared, Harry. Whatever it takes."
 
-- - - - -
+
 
 Your objective for this adventure is: To survive the Triwizard Tournament challenges, uncover the plot behind Harry's participation, and defeat Voldemort when he attempts to return using the Tournament as cover.
 
-- - - - -
 
--- Turn 2 --
+
+Turn 2
 
 Action: We need to make sure we understand all of what this means.  This phrase, Treasured, might mean something else.  Let me see if I can find something talking about what the phrasing in rituals means.
 
