@@ -1,0 +1,39 @@
+Miscellaneous Editing Tips
+Jump to navigationJump to search
+This is a list of miscellaneous tips you may use for manipulating your world.
+
+Random Selection
+The AI is normally incapable of true randomness when selecting specific items from a list. To get around this, you must select the item for the AI.
+
+Create a keyword instruction block entry containing a numbered list of all the items you want to select from. The list should start from 1.
+For example, if you are randomly determining a starting weapon: 1. Sword, 2. Spear, etc
+The items can each be on a new line for easier reading and editing.
+Alternatively, if the list is only temporarily needed, you can put it in an extra instruction block
+Create a trigger for the situation you wish to randomly select for. Use "tell the AI what will happen next turn" or "give information to the AI"
+If your list is in an extra instruction block, use the option "Modify an extra instruction block" to clear out the list (or change it to whatever you'd like).
+In the presented text box, tell the AI which item to use based on a die roll.
+For the weapon example (assuming there are 10 weapons to choose from), "the starting weapon is number <<1d10>> from Starting Weapons" where Starting Weapons is the keyword for the lore book you created.
+The "die" you roll can have any number of sides, but for this purpose it should be 1dX, where X is the number of items in your list.
+This will randomly select a number and then give that number to the AI. The AI is capable of figuring out what that number maps to.
+
+Note that the number will be re-rolled any time that trigger fires, so additional care is needed if you want the trigger to fire multiple times but with the same item used each time.
+
+Improving Memory
+One of the most common problems creators and players run into is that sometimes the world can forget things. You had a major conversation with a character and then five turns later they've forgotten it. To understand how to lessen this in your worlds, you need to first understand roughly how memory works:
+
+The storytelling AI model has no memory, meaning every single turn, it only knows about what Infinite Worlds sends it (in development terms, the AI is stateless and IW is responsible for state management). This is why you can do things like switch AI models every turn without losing anything: IW remembers things, not the models.
+IW has a concept of short- and long-term memory:
+Short-term memory is just the actual raw text of the last several turns, including secretInfo.
+Long-term memory is where things get trickier. Long-term memory has several components:
+A summary of the story so far. This is written by an AI every several turns. This is the primary mechanism by which events move from short-term memory to long-term memory. The summary itself is capped in size and the AI that writes it is capable of making mistakes.
+Long-term memory also includes other information, primarily the characterDB that has information about characters in your world.
+This system is designed to stop games from just getting more expensive every single turn: the more information you send to the storyteller AI, the more credits it costs, so by relying on summarization IW aims to cap how much is sent in each turn. But this process is lossy, meaning the summarization AI has to determine what information to keep in the summary and what isn't important, and sometimes it makes mistakes that are very noticeable. Most issues where the game is forgetful are likely caused by issues with summarization. Something similar happens with characters, where the summarizing AI is responsible for updating information about them, but can make mistakes.
+
+Note that switching between AI models can also cause memory issues, because the way they will parse and write is different -- this is especially true if you are switching from a high-end to a low-end model, as the lower end models are more likely to miss details and can produce more muddled outputs, leading to a loss in clarity.
+
+To help your worlds retain more information, you have a few techniques you can use:
+
+You can create tracked items using either Text or XML that contain important information you want to store. There are size limits here (4000 characters per tracked item), but by targeting specific pieces of information in a specific tracked item, you can increase the probability that the data is available. As an example, if you really want to make sure that the world remembers how a specific NPC feels about the player character, you could create a tracked item that tracks their relationship in detail.
+You can write out specific information you want to preserve to secretInfo. Because secretInfo for the most recent turns is always part of short-term memory, telling the model to write out key details every turn helps ensure it isn't lost. secretInfo is also given extra attention by the summarizer, so information that appears there is more likely to be preserved during summarization.
+You use instructions to store events. If you know during world creation that your world has a plot with key events that occur, you can create an Extra Instruction Block and then use trigger events to update it as events occur in the world. This works best if your world is somewhat linear.
+If you are simply playing a world and you notice it forgetting things you care about, you are a bit more limited (as you can't add new tracked items in a playthrough), but you can always modify the world design for your in-progress game and just write in Main Instructions (or an extra instruction block) some of the key things you want it to remember.

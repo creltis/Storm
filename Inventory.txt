@@ -1,0 +1,34 @@
+Creating an Inventory
+Jump to navigationJump to search
+It's common to want to use an inventory to keep track of the possessions or items a character has.
+
+Before doing so, one should consider how important a tracked inventory is to the game and what it adds. The game will already attempt to keep track of major game events and so it should remember important items which have been acquired - though this relies upon the summary process. You may also wish for a list to be visible to the player.
+
+The simplest way to create an inventory is with a tracked item. Despite the name, you would use one tracked item to represent the entire inventory, rather than tracking each object in the inventory individually (this would make sense only if you had a predetermined, finite number of items to track). A simple inventory might look something like this:
+
+Inventory
+Data Type: Text
+Description: A list of the important items currently in my possession
+Visibility: Visible to player and AI
+Update Automatically: Yes
+Update Instructions: Update whenever I gain or lose an item
+However, there are some additional considerations which arise from the way tracked items in general work.
+
+Reliability of Updating
+The AI does not always reliably make the decisions you might like about updating tracked items or not. As with Trigger events, there can sometimes be false positives in updates. For example, it's not uncommon for an item to be added to an inventory when it is encountered, even if you have not picked it up.
+
+Update instructions should be very detailed and specific, and it is often helpful to labour the finer details. For example:
+
+Update whenever I gain an item, adding it to the list. Always add any item acquired. Only add an item if I have actually acquired it, not simply encountered it. This should be a comma-separated list of each item in my possession.
+Update whenever I lose an item, removing it from the list. Always remove any item I have dropped, lost or given away, or which has been destroyed.
+Update whenever an item in my possession changes.
+You may also need to give consideration to how items are named in the list, what constitutes a "notable" item, and so on.
+
+Working with Older Models
+As explained on the Items to Track page, some models handle their own tracked items. However for some, tracked items are taken care of by a separate AI call. Unfortunately, this AI call only sees the current turn. This can lead to some unfortunate shortcoming, for example:
+
+If an item is introduced in one turn, and then picked up on the next turn, the tracked item AI may not see the item's description or know what it is. It will add something to the inventory, but it may not be an accurate description of the item.
+If the player puts all their items down (removing them from their inventory), then the next turn picks them all up again, the knowledge of the tracked item will have been lost; the tracked item AI will not know what used to be in the inventory, as it will only have access to the current turn's output description. It may have to improvise, writing something like "a collection of miscellaneous items" in your inventory rather than actually tracking them.
+In order to get around this, you may wish to give the AI instructions to write detailed notes about items in secretInfo. The tracked item AI will then see these notes, improving consistency.
+
+A more extreme alternative is to have the main AI always track the entire inventory itself by writing it into secretInfo each turn (see Using secretInfo Instead of Tracked Items) and then having a player-visible tracked item to represent the inventory which is simply updated directly from this information each turn. This is likely to be slightly more expensive and should be unnecessary with newer models, but will improve consistency.

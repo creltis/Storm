@@ -1,0 +1,60 @@
+Evaluation Instructions
+Jump to navigationJump to search
+IW instructs the AI to evaluate player actions according to the difficulty of the task and their skills.
+
+Currently, these instructions are not public, nor are they editable. However, they can be modified or overwritten by additional instructions in a given world. This allows one to influence the success or failure of player actions. There is no set way to do this; this page provides some examples and discussion of possible approaches.
+
+
+Contents
+1	Standard Evaluation Instructions
+2	Modifying Evaluation Instructions
+2.1	Breaking Down Complex Actions
+2.2	Altering the Evaluation Process
+2.3	Nuanced Successes and Failures
+Standard Evaluation Instructions
+As mentioned, these are not currently made public. However, the process the AI is told to use is approximately as follows:
+
+First, the AI determines if the assertions or actions written by the player should be "DENIED" for being nonsensical or impossible.
+If not, the AI chooses the skill it believes is most appropriate for the action, and sets the difficulty of the task.
+The AI then compares the proficiency in the skill against the difficulty of the task to determine success.
+This has a few implications. Firstly, it seems that success or failure is determined by a simple direct check, with little randomness; this suggests that a given skill level will always fail at certain tasks, and always success at others. This may be the cause of a perceived tenacity in the AIs in demanding that certain tasks fail no matter how likely or unlikely the player seems it or how many times they make the attempt. Secondly, note that only one skill is chosen for each player input, which assumes a single action per turn. Complex player actions with multiple parts are still only governed by a single check. Modern AI models are perfectly capable of handling complex actions and so these may have become more common; therefore, it may be desirable to address these specifically (see below).
+
+Modifying Evaluation Instructions
+Of course, you can tell the AI to do whatever you want given a particular player action. For example, the AI can be instructed that certain actions should always fail. In order to modify the use of skills more generally, however, it is worth bearing in mind the existing standard instructions. Since these can't currently be removed it is probably wise to tell the AI to ignore them, or try to incorporate them into your new process.
+
+Breaking Down Complex Actions
+It may be desirable to break down complex actions into multiple steps. This allows the AI to evaluate each step individually.
+
+Here are some example instructions to break down complex actions. Models like Wildcat may struggle with these, but newer models generally perform well.
+
+When evaluating the SUCCESS or FAILURE of my actions, before following the normal instructions, read the whole of playerAction and break it up into discrete sub-actions as necessary; remember that sometimes playerAction will be only one action, and won't need to be broken down; further, you don't need to break actions down into trivial subcomponents, only meaningful stand-alone actions or any actions which might require their own skill check.
+
+Then, consider the order in which these actions should occur. Note that some actions may happen simultaneously, and some actions may be contingent upon the outcome of others. Do not worry about whether these actions are feasible or not at this stage, until you have ordered them. Write your action breakdown into secretInfo. Once you have, evaluate each of these actions individually, in temporal order. Actions which are nonsensical, impossible, incomprehensible, or infeasible should be DENIED, as normal. Some trivial actions should automatically succeed. Others, however, may require skill checks to determine their success.
+
+For each action which does require a skill check, assess which skill would be most appropriate, and evaluate the SUCCESS or FAILRE of that action according to my proficiency in that skill, as normal.
+Here, demanding the AI write the breakdown to secretInfo is useful for debugging purposes, and also to make sure that it actually follows the instructions (by making it "show its working"). Note that the instruction to write to secretInfo may be less effective if the world already has instructions for adding to or formatting secretInfo (in which case one would need to reconcile the two sets of instructions).
+
+Altering the Evaluation Process
+Naturally, one can alter the process used for evaluations simply by telling the AI to ignore its previous instructions and use a new process; this will likely be more effective if IW in the future provides a way to remove the default instructions too, but does work.
+
+When evaluating the success or failure of an action, instead of following the normal instructions, use this process:
+  1) Choose the most appropriate Skill to determine the outcome of my action.
+  2) Assign a DifficultyScore from 0 to 10 to the action, with lower numbers being easier and higher numbers being higher: 0-1 for trivial or routine tasks, 2-3 for easy tasks, 4-5 for moderately challenging tasks, 6-7 for very challenging tasks, 8-9 for exceedingly difficult tasks, and 10 for nigh-impossible tasks.
+  3) Set X equal to my proficiency level in the chosen Skill:
+0 = Incapable
+1 = Incompetent
+2 = Unskilled
+3 = Competent
+4 = Highly Skilled
+5 = Exceptional
+  4) Pick a random number N from this set: {0, 1, 2, 3, 4, 5}
+  5) If X+N is greater than or equal to DifficultyScore, the action is a SUCCESS. If X+N is less than DifficultyScore, the action is a FAILURE.
+  6) Append a message to secretInfo of the format "{Skill} Skill Check: {Skill Score X} + {random number N} = {X+N} vs {DifficultyScore}: {Result}", where the curly brackets { and } denote the value that should be placed there.
+Naturally, this process can be modified to suit your specific world.
+
+Nuanced Successes and Failures
+One consequence of the standard evaluation instructions seems to be that the AI prefers binary outcomes (SUCCESS or FAILURE) from each action. Whilst the AI will sometimes introduce side-effects or partial successes, it appears to do this infrequently, preferring instead total failure and often backfiring of an attempt, or success (turns are often written with a construction whereby the attempt initially appears to succeed and then fails, often with a backlash).
+
+However, by referring to the evaluation instructions, the AI can be reminded to consider a broader range of possibilities for outcomes. This may be particularly relevant in certain worlds depending on the capabilities of the character. For example, in a superhero world, you may wish that superpowers always function, even if the use of a superpower is not always successful in accomplishing the relevant task (by default, the AI may well decide that the power simply fails, and this can be particularly damaging if it decides to assign a certain skill to those decisions and the player has a low score in that skill, as they may find it supremely difficult to do things that should be straightforward).
+
+By using a variant of the above system, one might also attempt to introduce "critical" or extreme failures and successes, with the AI distinguishing between things which were close calls and things which went particularly well or badly.

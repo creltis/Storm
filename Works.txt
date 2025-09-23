@@ -1,0 +1,58 @@
+How Infinite Worlds works
+Jump to navigationJump to search
+Infinite Worlds has three core services:
+
+A repository for AI story games,
+an interface for playing those games,
+and a toolkit for creating and editing those games
+These three aspects are the primary method by which one interacts with any given world, and the site as a whole.
+
+
+Contents
+1	World Repository
+1.1	Sharing and Managing a Community World
+2	Gameplay
+2.1	Memory and Summary
+2.2	Saving Progress
+2.3	Storyteller Mode
+2.4	Pricing
+3	World Toolkit
+World Repository
+Infinite Worlds has a dedicated page for viewing each game, separated into three categories:
+
+Your worlds
+A searchable list of all the worlds one has personally created or copied. It can be filtered to only list Favorited worlds (worlds that have had the Heart icon selected). Each world can be played, copied, shared, edited, or deleted. Editing may be disabled if the source version of the world has editing disabled.
+Example worlds
+A list of the example worlds currently available.
+Community worlds
+A searchable list of all worlds currently published to the community. These can be filtered for favorited worlds, and checkboxes to reveal each of "Mature" (drug use, violence, suggestive themes) and "NSFW" (pornographic content) worlds, respectively, can also be activated. Note that these checkboxes will not hide SFW worlds, nor are their checked states saved when one leaves the world list page.
+NOTE: Favoriting worlds is currently bugged, and does not save the Favorited state consistently.
+NOTE: There is a known bug which can cause an original author to be unable to edit their own worlds if they disable editing of the world via permissions.
+Each of these three lists can be collapsed and hidden from view by clicking on their names. Clicking again will re-open them.
+
+Sharing and Managing a Community World
+World authors can add a world to Community worlds by scrolling to the bottom of the world list page and clicking Add Community World. Authors can then select which of their worlds they wish to publish.
+
+After publishing a world, authors can then click Manage your community worlds, found at top of Your worlds and at the bottom of Community worlds. Once there, authors can publish updates, withdraw from publication, or share again using a link that points to the community worlds version. Critically, the link created from clicking Share on this page (or from the entry found in the community worlds list) will always point to the latest published version of the world, while a link generated from within Your worlds will only point to the version of the world that existed at that moment in time.
+
+Gameplay
+The basic structure of playing an Infinite Worlds game is that, every turn, the Storytelling AI is sent the main instructions, the player action, the last 2-8 turns verbatim, and a summary of turns before the last 2-8. It then thinks about/evaluates your action on the basis of the history + instructions. After its evaluation, it writes the main outcome (to a field called `outcomeDescription`) following instructions from description instructions. After the main outcome, it generates suggested actions for you, writes secret information (to a field called `secretInfo`), activates any pertinent triggers, and writes the image prompt. The game then handles tracked items. Beginning on turn 8 and every 6 turns afterward, the Summary AI activates, updating the summary of the story so far, and is guided by the summary instructions.
+
+See Variable names for the ordered list of the JSON fields to which the Storytelling AI writes on every turn.
+
+Memory and Summary
+A crucial part of keeping a game coherent, the Recent Context and Summary system Infinite Worlds implements sends between 2 and 8 turns verbatim to the storyteller AI every turn, and also sends a summary of turns further into the past. The storyteller AI also receives a list of characters encountered so far (or documented in Other Characters, and their brief summaries if they haven't appeared in the last few turns, or their full character data if they have.
+
+Saving Progress
+After a player closes the website, on return they will be immediately directed to the most recent turn of their most recently played world. Players can also save their current progress using the menu in the top right, as well as load other games in progress (just make sure to save first!). Loading games in progress can only be done from this menu on the gameplay page.
+
+Storyteller Mode
+Storyteller Mode is a mode that gives the player deeper access to and control over the content and progression of a game.
+
+Activated from the menu in the top right of the gameplay interface, this gives the player access to hidden output fields, such as secretInfo and tracked items that the world editor has hidden from the player by default. Storyteller Mode also gives the player access to an additional input box, below the normal player action box, that gives the storyteller AI a strong imperative about what should happen in the next turn.
+
+Pricing
+The cost of AI is very expensive, even to some degree prohibitive. Infinite Worlds utilizes a credit system that corresponds to tokens used by the chosen AI models. They are spent based on the number of words in the instructions and the number of words in the total output, including items, situation-based trigger conditions, outcomeDescription, secretInfo, player inputs, etc. Combined with the variable nature of AI outputs, the cost per turn of any given world can be highly variable and impossible to predict without testing. Notably, the summary process is entirely subsidized by Friendly Fox, and uses the same AI model as Lion, one of the more expensive models. Friendly Fox has stated a clear "no" on a subscription model, due to their inability to actually cover the costs of AI today without either predatory pricing, or external funding — neither of which Friendly Fox is eager to engage in or has access to. Instead, fixed credit amounts can be purchased, and daily free turns are available to players with registered accounts.
+
+World Toolkit
+When you create a new world, you provide anywhere from a few words to many paragraphs to describe the type of adventure you'd like to create. This is fed to the world generator AI, which then begins generating a number of default fields, such as Main Instructions and generating Skills and Player Characters. You can play this world as is, or edit it to tweak and customize before starting play. Editing is highly recommended for worlds that are intended to have a very specific setting, a fairly linear story, or other significant controls or intentions. It's also useful for targeting a specific AI model for a world, or to account for the natural quirks of AI writing, such as poor detail retention, repetitious writing, accelerated pacing, or particular model quirks, such as Lion's (and to a lesser extent many others) penchant for listening devices and grand conspiracy.

@@ -1,0 +1,295 @@
+Trigger events
+Jump to navigationJump to search
+
+At the end of each turn, all triggers are evaluated then the results of all relevant triggers are applied. Triggers are evaluated in sequence, as they appear in the trigger list.
+
+In a world's JSON, triggers are stored in the list field triggerEvents.
+
+
+Contents
+1	Trigger Conditions
+1.1	Trigger When a Specific Situation is Encountered
+1.2	Trigger when a Specific Turn Number is Reached
+1.3	Trigger at Start of Game, Before First Turn
+1.4	Trigger if Player is a Specific Character
+1.5	Trigger If a Tracked Item has a Certain Value
+1.5.1	JSON Details
+1.6	Trigger With a Random Chance
+1.7	Trigger Only if Other Triggers Have Fired
+1.8	Prevent Trigger if Other Triggers Have Fired
+1.9	Allow Event to Trigger More Than Once
+2	Trigger Effects
+2.1	Show Message to Player
+2.2	Tell the AI what should happen next turn
+2.3	Give information to AI
+2.4	Change Adventure Background
+2.5	Change Main Instructions
+2.6	Modify an Extra Instruction Block
+2.6.1	Select an Instruction Block to Modify
+2.6.2	Contents
+2.7	Change Author Style
+2.8	Change Description Instructions
+2.9	Change Objective, Victory Condition or Defeat Condition
+2.9.1	Change Objective
+2.9.2	Change Victory Condition
+2.9.3	Change Defeat Condition
+2.10	Change First Action
+2.11	Modify Player Character
+2.11.1	Change Player Character Name
+2.11.2	Change Player Character Description
+2.11.3	Change Player Character Skill
+2.12	Set the Value of a Tracked Item
+2.12.1	String Manipulation
+2.12.2	Number Manipulation
+2.12.3	JSON Details
+2.13	Fire Random Trigger
+2.14	Modify Keyword Instruction Block
+2.14.1	Select a Keyword Block to Modify
+2.14.2	Keywords
+2.14.3	Contents
+2.15	End the game
+2.15.1	Player can Choose to Continue the Game
+Trigger Conditions
+Trigger conditions must all be met simultaneously for a trigger to fire in a turn. That is, each condition must evaluate to true for the trigger to activate.
+
+Trigger When a Specific Situation is Encountered
+JSON Field
+(string) triggerOnEvent
+This trigger, unlike the others, is evaluated by the AI. You are given a free-flow box to enter the conditions under which this trigger should occur. This makes this the most flexible trigger. However, the AI can be a little overzealous and false positives may occur (that is, triggers may fire when they're not supposed to). Clear, explicit instructions about the specific conditions of the trigger are essential to ensuring the trigger activates as intended, and does not activate on false positives, or fail to activate on false negatives.
+
+Currently, only ten custom situation conditions can be created and used. These appear verbatim in the JSON field.
+
+Trigger when a Specific Turn Number is Reached
+JSON Field
+(integer) triggerOnTurn
+The trigger will activate when the specific turn number is at least the assigned value. In conjunction with Allow Event to Trigger More Than Once, this causes a trigger to fire every single turn, starting with the specified turn number.
+
+Trigger at Start of Game, Before First Turn
+JSON field
+(boolean) triggerOnStartOfGame
+This option uniquely causes a trigger to fire before the game starts (even before turn 0). All other triggers are evaluated each turn after the turn. Selecting this option locks out some types of effects, and unlocks others.
+
+Trigger if Player is a Specific Character
+JSON Field
+(list string) triggerOnCharacter
+This present a list of checkboxes that restrict the trigger to only activating if the player character is one of the checked characters.
+
+Note that in the JSON list, authors should enter each character's id, and not the character's name.
+
+Trigger If a Tracked Item has a Certain Value
+JSON Field (dict) triggerOnTrackedItem
+Triggers can be set off by tracked item values. This can use greater than or equal to, less than or equal to, and exactly equal to conditions for number items, and contains specific string logic for text and XML items.
+
+JSON Details
+Note: // indicates a comment by the wiki, and should not be included in the final JSON. The structure of tracked item conditions is a dict or JSON structure, as follows:
+
+"triggerOnTrackedItem": {
+    "condition": "and", // this is an optional inclusion. Can be either of "and" and "or".
+    "items": [ // this is a list of 
+        {
+            "trackedItemId": "Avasdfg", // this is reference to the id of the specific tracked item, and not the item's name.
+            "inequality": "at_least", // this is the default for a number tracked item, and is the only option for a text item. Can also be "is_exactly" or "at_most" for number tracked items
+            "required_value": 402 // this is just the specified value of the tracked item condition.
+        },
+            "trackedItemId": "LkgaofS",
+            "inequality": "at_most",
+            "required_value": 33
+        } // make sure that you DO NOT include a comma on the last entry in the list of items
+    ]
+}, // there will be fields that follow this one in the body of the trigger, so make sure to include a comma here
+Trigger With a Random Chance
+JSON Field (integer) triggerOnRandomChance
+This condition fires the trigger based on a random percent chance between 1 and 100.
+
+Trigger Only if Other Triggers Have Fired
+JSON Field (list string) prerequisites
+This condition is met if all of the selected triggers have fired at least once in any previous turn; if the prerequisite trigger fires this turn, this condition will not be met until the next turn.
+
+Note that the JSON field only accepts the id of a trigger, and not the trigger's name.
+
+Prevent Trigger if Other Triggers Have Fired
+JSON Field
+(list string) blockers
+This condition is met if one or more of the selected triggers has ever fired. If one of them fires this turn, that does not prevent this trigger from firing.
+
+Note that the JSON field only accepts the id of a trigger, and not the trigger's name.
+
+Allow Event to Trigger More Than Once
+JSON Field
+(boolean) canTriggerMoreThanOnce
+If this box is not ticked, the trigger can occur exactly one time in the entire duration of the game. If it is ticked, the trigger can occur as often as once every turn.
+
+Trigger Effects
+Show Message to Player
+JSON Field
+(string) scriptedText
+This effect appends a custom message to the end of outcomeDescription to describe
+
+Tell the AI what should happen next turn
+JSON Field
+(string) giveGuidance
+NOTE: this field is also used for changing what should happen in the first turn on a pre-game trigger. This gives instructions to the AI just as if the "Tell the AI what to do" box in Storyteller Mode were used. This is the most reliable way to control what the AI does next, though depending on the nature of the trigger one may not know exactly what state the game is in. Fortunately, the AI does tend to make the instructions consistent with what's going on.
+
+Note that, because triggers are activated exclusively at the end of the turn, this is useless for controlling what happens within turns. A trigger designed to control the result of some occurrence may prove unreliable as often the AI may describe the result right away, before the trigger can come into effect. If this is a concern, the desired behavior should be described in Main instructions, possibly in addition to one of these triggers.
+
+Give information to AI
+JSON Field
+(string) addSecretInfo
+This writes additional information to secretInfo. It does not force the AI to do anything; the AI does not always act upon designs written in secretInfo, but often strongly factors it into the following outcomes. The AI may choose to repeat this information, or it may be forgotten within a turn. Therefore if it is important to make something happen, "Tell the AI what should happen" should be used instead. The summary AI often weights the contents of secretInfo very heavily, so this can be an effective way to pass information to the summary AI.
+
+Change Adventure Background
+JSON Field (string) changeAdventureBackground
+This changes the background shown to the player and storyteller AI at the start of the game. Useful for characters with disparate starting conditions, and pairs very well with Change First Action to create vastly different starting experiences and character plots.
+
+Change Main Instructions
+JSON Field (string) changeInstructions
+This effect fully replaces the main instructions box. This is useful for wholesale change, a singular minor change, progressive changes (i.e. reflecting "chapters" that require new instructions), but does not easily allow for complex states. When this effect occurs, the changes are not reflected when viewing the instructions via Storyteller Mode, and future changes (such as reverting to the original instructions) can only be completed by another trigger. Note that this can be used to introduce values from a tracked item using variable replacement syntax.
+
+Modify an Extra Instruction Block
+JSON Field
+(dict string) changeInstructionBlock
+This replaces the text of an extra instruction block with the text provided. This is especially helpful for updating instructions to reflect complex states, updating sub-sections of the instructions for e.g. metamorphosis or process information, or other sectioned instruction changes. When this effect occurs, the changes are not reflected when viewing the instructions via Storyteller Mode, and future changes (such as reverting to the original instructions) can only be completed by another trigger. Note that this can be used to introduce values from a tracked item using variable replacement syntax.
+
+Select an Instruction Block to Modify
+JSON Field
+(string) id
+This is the specific instruction block to be modified. In the JSON, this uses the id, not the name of the instruction block.
+
+Contents
+JSON Field
+(string) content
+This is the text which fully replaces the contents of the instruction block.
+
+Change Author Style
+JSON Field
+(string) changeAuthorStyle
+This is the text which fully replaces the contents of the author style. This can be useful to keep up with genre transitions, or to increase focus on some aspects of a story's writing over others.
+
+Change Description Instructions
+JSON Field
+(string) changeDescriptionInstructions
+This is the text which fully replaces the contents of the description instructions. This can help mark major changes in how the story needs to be written, or in emphasizing certain facts, or in ensuring rules that have changed during play are adhered to.
+
+Change Objective, Victory Condition or Defeat Condition
+Change Objective
+JSON Field
+(string) changeObjective
+This is exceptionally helpful for silently modifying the objective to convince the AI to carry out elements that might be contrary to the desires of the player character, but are the intended progression of the game, i.e. succumbing to corruption or becoming evil. It is also helpful for progressing quests (either pre-written quests or dynamic quests in conjunction with tracked items), reflecting major transformations in the character (such as shifting loyalties), and more. The AI heavily considers the objective when writing its outputs, and will try very hard to make the character achieve them, so this is a very powerful tool in the author's toolkit. Note that this can be used to introduce values from a tracked item using variable replacement syntax.
+
+Change Victory Condition
+JSON Field
+(dict) changeVictoryCondition
+(string) condition
+(string) text
+(boolean) alreadyFired
+This changes the primary victory condition of the game. Note that the AI only sees this as a trigger, so it has no effect on how the AI writes the story.
+
+Change Defeat Condition
+JSON Fields
+changeDefeatCondition
+(string) condition
+(string) text
+(boolean) alreadyFired
+This changes the primary defeat condition of the game. Note that the AI only sees this as a trigger, so it has no effect on how the AI writes the story.
+
+Change First Action
+JSON Field
+(string) changeFirstAction
+This changes the first action on the first turn of the game. Useful for characters with disparate starting conditions, and pairs very well with Change Adventure Background to create vastly different starting experiences and character plots.
+
+Modify Player Character
+Change Player Character Name
+JSON Field
+(string) changeName
+This fully replaces the player character's name with a new name specified by the trigger. Can work very well with tracked items that track changes to a character's name over time, as well.
+
+Change Player Character Description
+JSON Field
+(string) changeDescription
+This fully replaces the player character's description on their character sheet to whatever is specified by the trigger. Can work very well with tracked items that track changes to a character's description over time, as well.
+
+Change Player Character Skill
+JSON Fields
+(dict) changeSkill
+(string) name
+(integer) amount
+(integer) minmax
+(boolean) increase
+This adjusts a player character's skill level in a particular skill up or down by an amount to a set maximum or minimum. Multiple triggers are required to increase more than one skill at a time.
+
+Set the Value of a Tracked Item
+JSON Field
+(list) setTrackedItemsValue
+This creates a list box that lets one add as many tracked items as one wishes. There are two modes of interaction with tracked items, based on the tracked item's data type: string manipulation and number manipulation.
+
+String Manipulation
+String manipulation pertains to the Text and XML data types (XML is effectively just text). There are four manipulations available:
+
+Completely replace the contents of an item with a new value
+Add a string to the end of the value of an item (note that this does not insert the string on a new line)
+Remove a specific string from an item
+Replace all instances of a specified string with a new string.
+Note that these methods can be used to introduce values from other tracked items using variable replacement syntax.
+
+Number Manipulation
+Number manipulation pertains to the Number data type. There are three manipulations available:
+
+Completely replace the contents of an item with a new value
+Add a value to the current value of the item
+Subtract a value from the current value of the item
+Note that this can be used to introduce values from a tracked item using variable replacement syntax. They can also take advantage of math function calls, such as <<1d20>> to introduce randomness into values.
+
+JSON Details
+Note: // indicates a comment by the wiki, and should not be included in the final JSON. The structure of tracked item modifications is a dict or JSON structure, as follows:
+
+"setTrackedItemsValue": [
+    { // assume this is a number item
+        "trackedItemID": "AofdahI", // This is the ID of the tracked item, and NOT its name
+        "action": "set", // options are "set", "add", and "subtract" for number items
+        "newValue": "44"
+    },
+    { // assume this is a text item
+        "trackedItemID": "OlgasdfI",
+        "action": "replace", // options are "set", "add", "subtract", and "replace". "add" only adds the contents of "newValue" to the END of a text item. "subtract" removes all instances of the contents of "newValue" from a text item. "replace" is removes all instances of the contents of "newValue" from a text item, and fills in with the contents of "replaceWith".
+        "newValue": "oasg",
+        "replaceWith": "ptha"
+    }
+]
+Fire Random Trigger
+JSON Field
+(list string) randomTriggers
+A list of other triggers must be provided; one of them is chosen at random and executed. If only one is provided, it will always be chosen. This ignores all trigger conditions, except that triggers which do not have "Allow event to trigger more than once" set still will not be triggered more than once.
+
+This can be used to chain triggers. For example, current limitations mean that only one each of a skill, tracked item, instruction block, etc can be modified at once by a trigger; in order to make multiple such changes at the same time, one can use a chain of single "random" triggers which each makes one modification and then fires the next trigger.
+
+Note that the JSON field only accepts the id of a trigger, and not the trigger's name.
+
+Modify Keyword Instruction Block
+JSON field
+changeLorebook
+This fully replaces the content of a keyword instruction block (KIB). Note that this can be used to update the KIB with the contents of a tracked item using variable replacement syntax with a delay of one turn before the text is replaced.
+
+Select a Keyword Block to Modify
+JSON field
+(string) id
+This is the specific KIB the trigger is intended to modify. Note that, when specifying the id in JSON format, this is not the name of the KIB. Instead, it is the string of characters in the KIB's id field, also found in the JSON. This is not modified by the trigger; it only points the trigger to the correct keyword instruction block.
+
+Keywords
+JSON field
+(list string) keywords
+This is the list of keywords in the KIB. Any changes here will fully replace the keywords originally present.
+
+Contents
+JSON field
+(string) content
+This is the actual content of the keyword instruction block. Anything written in this box will fully replace the previous contents.
+
+End the game
+JSON field
+(boolean) endsGame
+This ends the game. Best paired with Show Message to Player to help the player understand what happened. Could be a victory or defeat condition.
+
+Player can Choose to Continue the Game
+JSON field
+(boolean) canContinueEndedGame
+This allows the player to continue playing the game after this trigger fires. Typically used for victory conditions, but may be appropriate for some defeat conditions as well.
